@@ -1,0 +1,103 @@
+Umur,Hamil Ke,Riwayat Abortus,Lingkar Lengan Atas,TB,BB,Jarak Persalinan,Cara Persalinan Terakhir,HB,Riwayat Penyakit,Status,,,Umur,Hamil Ke,Riwayat Abortus,Lingkar Lengan Atas,TB,BB,Jarak Persalinan,Cara Persalinan Terakhir,HB,Riwayat Penyakit,Status
+33,2,0,32,160,66.2,96,Operasi,9.7,Tidak Ada,Tidak Berisiko Tinggi,,,0.56,0.21,0.10,0.54,0.72,7.55,0.46,1,0.25,0,0
+41,4,0,28,152,63.5,6,Operasi,14.9,Tidak Ada,Berisiko Tinggi,,,0.81,0.44,0.10,0.37,0.43,7.24,0.12,1,0.75,0,1
+19,1,0,30,149,67.3,0,Tidak Operasi,15.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.13,0.10,0.10,0.46,0.32,7.68,0.10,0,0.78,0,0
+34,3,0,32.7,150,61.6,60,Operasi,15.7,Tidak Ada,Berisiko Tinggi,,,0.59,0.33,0.10,0.58,0.35,7.03,0.32,1,0.83,0,1
+28,1,0,25,151,49.2,0,Tidak Operasi,13.8,Tidak Ada,Tidak Berisiko Tinggi,,,0.41,0.10,0.10,0.23,0.39,5.61,0.10,0,0.65,0,0
+35,3,1,33,152,58.1,68,Operasi,14.2,Ada,Berisiko Tinggi,,,0.62,0.33,0.37,0.59,0.43,6.63,0.35,1,0.69,1,1
+26,1,0,29.9,161.5,72.5,0,Tidak Operasi,12,Tidak Ada,Tidak Berisiko Tinggi,,,0.35,0.10,0.10,0.45,0.77,8.27,0.10,0,0.47,0,0
+22,2,0,28,159,66.3,17,Operasi,14.2,Ada,Berisiko Tinggi,,,0.22,0.21,0.10,0.37,0.68,7.56,0.16,1,0.69,1,1
+25,2,0,27,155,53.8,0,Tidak Operasi,13.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.32,0.21,0.10,0.32,0.54,6.13,0.10,0,0.66,0,0
+36,2,0,28,159,65.6,10,Operasi,13.2,Ada,Berisiko Tinggi,,,0.65,0.21,0.10,0.37,0.68,7.48,0.14,1,0.59,1,1
+27,1,0,27,152,57.2,0,Tidak Operasi,10.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.38,0.10,0.10,0.32,0.43,6.52,0.10,0,0.30,0,0
+32,4,1,29,158,71,30,Operasi,14.2,Ada,Berisiko Tinggi,,,0.53,0.44,0.37,0.41,0.65,8.10,0.21,1,0.69,1,1
+21,1,0,24,155,65.5,0,Tidak Operasi,11.7,Tidak Ada,Tidak Berisiko Tinggi,,,0.19,0.10,0.10,0.19,0.54,7.47,0.10,0,0.44,0,0
+35,5,2,28,153,63.5,48,Operasi,13.8,Ada,Berisiko Tinggi,,,0.62,0.56,0.63,0.37,0.46,7.24,0.28,1,0.65,1,1
+25,4,1,26,150,50.8,15,Tidak Operasi,13.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.32,0.44,0.37,0.28,0.35,5.79,0.16,0,0.60,0,0
+24,2,0,31.5,160,73.6,36,Operasi,13.8,Tidak Ada,Berisiko Tinggi,,,0.28,0.21,0.10,0.52,0.72,8.40,0.23,1,0.65,0,1
+21,1,0,25,159.2,44.5,0,Tidak Operasi,14.8,Tidak Ada,Tidak Berisiko Tinggi,,,0.19,0.10,0.10,0.23,0.69,5.07,0.10,0,0.74,0,0
+24,2,0,32,149,64.1,13,Operasi,12.3,Ada,Berisiko Tinggi,,,0.28,0.21,0.10,0.54,0.32,7.31,0.15,1,0.50,1,1
+23,2,0,29,155,62.1,24,Tidak Operasi,11.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.25,0.21,0.10,0.41,0.54,7.08,0.19,0,0.40,0,0
+31,4,1,24,165,54.3,16,Operasi,13.4,Tidak Ada,Berisiko Tinggi,,,0.50,0.44,0.37,0.19,0.90,6.19,0.16,1,0.61,0,1
+28,2,0,30,164,56.8,0,Tidak Operasi,12.8,Tidak Ada,Tidak Berisiko Tinggi,,,0.41,0.21,0.10,0.46,0.86,6.48,0.10,0,0.55,0,0
+33,2,2,27,143,51.7,60,Operasi,15,Ada,Berisiko Tinggi,,,0.56,0.21,0.63,0.32,0.10,5.89,0.32,1,0.76,1,1
+30,2,0,28,155,63.8,84,Tidak Operasi,12.4,Tidak Ada,Tidak Berisiko Tinggi,,,0.47,0.21,0.10,0.37,0.54,7.28,0.41,0,0.51,0,0
+26,2,0,26,152,54.7,27,Operasi,12.9,Tidak Ada,Berisiko Tinggi,,,0.35,0.21,0.10,0.28,0.43,6.24,0.20,1,0.56,0,1
+22,1,0,25.5,159,57.4,0,Tidak Operasi,12.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.22,0.10,0.10,0.26,0.68,6.55,0.10,0,0.50,0,0
+28,2,0,27,152,58.7,60,Operasi,16.4,Ada,Berisiko Tinggi,,,0.41,0.21,0.10,0.32,0.43,6.69,0.32,1,0.90,1,1
+24,2,0,26,145,48.6,60,Tidak Operasi,12.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.28,0.21,0.10,0.28,0.17,5.54,0.32,0,0.52,0,0
+28,2,0,26,150,55.5,72,Operasi,12.7,Ada,Berisiko Tinggi,,,0.41,0.21,0.10,0.28,0.35,6.33,0.37,1,0.54,1,1
+30,4,0,29,163,93,72,Tidak Operasi,13,Tidak Ada,Tidak Berisiko Tinggi,,,0.47,0.44,0.10,0.41,0.83,10.61,0.37,0,0.57,0,0
+34,2,0,28,155,59,120,Operasi,11.5,Ada,Berisiko Tinggi,,,0.59,0.21,0.10,0.37,0.54,6.73,0.54,1,0.42,1,1
+33,4,1,30,160,72.2,36,Tidak Operasi,15.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.56,0.44,0.37,0.46,0.72,8.24,0.23,0,0.78,0,0
+33,4,1,28,157,65.6,24,Operasi,12.7,Tidak Ada,Berisiko Tinggi,,,0.56,0.44,0.37,0.37,0.61,7.48,0.19,1,0.54,0,1
+22,1,0,26,165,56.2,0,Tidak Operasi,10.8,Tidak Ada,Tidak Berisiko Tinggi,,,0.22,0.10,0.10,0.28,0.90,6.41,0.10,0,0.35,0,0
+26,2,0,27.5,154,66.3,36,Operasi,13.1,Ada,Berisiko Tinggi,,,0.35,0.21,0.10,0.34,0.50,7.56,0.23,1,0.58,1,1
+23,1,0,28,158,60.1,0,Tidak Operasi,12.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.25,0.10,0.10,0.37,0.65,6.85,0.10,0,0.52,0,0
+31,5,2,29,155,71.2,120,Operasi,12.1,Tidak Ada,Berisiko Tinggi,,,0.50,0.56,0.63,0.41,0.54,8.12,0.54,1,0.48,0,1
+25,1,0,40,155,90,0,Tidak Operasi,13.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.32,0.10,0.10,0.90,0.54,10.27,0.10,0,0.66,0,0
+23,2,0,29,156,79,36,Operasi,12.8,Ada,Berisiko Tinggi,,,0.25,0.21,0.10,0.41,0.57,9.01,0.23,1,0.55,1,1
+20,1,0,28,157,61.4,0,Tidak Operasi,12.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.16,0.10,0.10,0.37,0.61,7.00,0.10,0,0.49,0,0
+23,2,0,22,149,38.1,15,Operasi,13,Ada,Berisiko Tinggi,,,0.25,0.21,0.10,0.10,0.32,4.34,0.16,1,0.57,1,1
+26,1,0,23,161,50.2,0,Tidak Operasi,10.4,Tidak Ada,Tidak Berisiko Tinggi,,,0.35,0.10,0.10,0.14,0.75,5.72,0.10,0,0.31,0,0
+28,3,0,25,152,55,30,Operasi,14.1,Tidak Ada,Berisiko Tinggi,,,0.41,0.33,0.10,0.23,0.43,6.27,0.21,1,0.68,0,1
+30,2,0,27.5,156,65.3,54,Tidak Operasi,14.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.47,0.21,0.10,0.34,0.57,7.45,0.30,0,0.71,0,0
+28,2,0,30,155,74.2,120,Tidak Operasi,13.7,Tidak Ada,Berisiko Tinggi,,,0.41,0.21,0.10,0.46,0.54,8.47,0.54,0,0.64,0,1
+30,1,0,30,150,65,0,Tidak Operasi,14.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.47,0.10,0.10,0.46,0.35,7.41,0.10,0,0.70,0,0
+40,2,0,31,152,72,156,Tidak Operasi,12.3,Tidak Ada,Berisiko Tinggi,,,0.78,0.21,0.10,0.50,0.43,8.21,0.68,0,0.50,0,1
+28,2,0,27,157,56.9,18,Tidak Operasi,14.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.41,0.21,0.10,0.32,0.61,6.49,0.17,0,0.70,0,0
+37,3,0,35,148,74.7,120,Tidak Operasi,13.5,Ada,Berisiko Tinggi,,,0.68,0.33,0.10,0.68,0.28,8.52,0.54,0,0.62,1,1
+36,2,0,34,155,74,156,Tidak Operasi,12.6,Tidak Ada,Tidak Berisiko Tinggi,,,0.65,0.21,0.10,0.63,0.54,8.44,0.68,0,0.53,0,0
+37,3,0,28,154,71.9,72,Tidak Operasi,13.6,Ada,Berisiko Tinggi,,,0.68,0.33,0.10,0.37,0.50,8.20,0.37,0,0.63,1,1
+31,2,0,24,145,40.4,4,Tidak Operasi,12.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.50,0.21,0.10,0.19,0.17,4.60,0.11,0,0.52,0,0
+29,2,0,23,149.5,43.5,96,Tidak Operasi,13.1,Ada,Berisiko Tinggi,,,0.44,0.21,0.10,0.14,0.34,4.96,0.46,0,0.58,1,1
+32,2,0,32.5,149.5,87.5,144,Tidak Operasi,14.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.53,0.21,0.10,0.57,0.34,9.99,0.63,0,0.70,0,0
+37,3,1,31,148,71.2,144,Tidak Operasi,15,Ada,Berisiko Tinggi,,,0.68,0.33,0.37,0.50,0.28,8.12,0.63,0,0.76,1,1
+28,3,0,29,157,70,48,Tidak Operasi,12.1,Tidak Ada,Tidak Berisiko Tinggi,,,0.41,0.33,0.10,0.41,0.61,7.99,0.28,0,0.48,0,0
+37,1,0,29,152,55.8,0,Tidak Operasi,12.6,Ada,Berisiko Tinggi,,,0.68,0.10,0.10,0.41,0.43,6.36,0.10,0,0.53,1,1
+32,3,0,28,154,52.4,78,Tidak Operasi,13.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.53,0.33,0.10,0.37,0.50,5.97,0.39,0,0.66,0,0
+38,5,1,34,162,76.4,0,Tidak Operasi,13.7,Ada,Berisiko Tinggi,,,0.72,0.56,0.37,0.63,0.79,8.72,0.10,0,0.64,1,1
+18,1,0,26,162,54.1,0,Tidak Operasi,13.8,Tidak Ada,Tidak Berisiko Tinggi,,,0.10,0.10,0.10,0.28,0.79,6.17,0.10,0,0.65,0,0
+37,2,0,26,154,53.7,30,Tidak Operasi,11.7,Ada,Berisiko Tinggi,,,0.68,0.21,0.10,0.28,0.50,6.12,0.21,0,0.44,1,1
+27,1,0,25,156,56.9,0,Tidak Operasi,13.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.38,0.10,0.10,0.23,0.57,6.49,0.10,0,0.59,0,0
+44,5,0,34.2,153,79.6,108,Tidak Operasi,12.4,Ada,Berisiko Tinggi,,,0.90,0.56,0.10,0.64,0.46,9.08,0.50,0,0.51,1,1
+21,1,0,30,165,85.7,0,Tidak Operasi,15.7,Tidak Ada,Tidak Berisiko Tinggi,,,0.19,0.10,0.10,0.46,0.90,9.78,0.10,0,0.83,0,0
+32,3,1,26,147,57.2,15,Tidak Operasi,13.7,Tidak Ada,Berisiko Tinggi,,,0.53,0.33,0.37,0.28,0.25,6.52,0.16,0,0.64,0,1
+36,4,0,24.5,158.5,51.8,42,Tidak Operasi,11.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.65,0.44,0.10,0.21,0.66,5.91,0.26,0,0.39,0,0
+42,3,0,28.5,156,67.5,216,Tidak Operasi,13.6,Ada,Berisiko Tinggi,,,0.84,0.33,0.10,0.39,0.57,7.70,0.90,0,0.63,1,1
+25,2,0,24,156,57.9,78,Tidak Operasi,12.3,Tidak Ada,Tidak Berisiko Tinggi,,,0.32,0.21,0.10,0.19,0.57,6.60,0.39,0,0.50,0,0
+38,4,3,28,159,55,84,Tidak Operasi,13,Ada,Berisiko Tinggi,,,0.72,0.44,0.90,0.37,0.68,6.27,0.41,0,0.57,1,1
+30,2,0,25,155,52.5,72,Tidak Operasi,13.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.47,0.21,0.10,0.23,0.54,5.99,0.37,0,0.59,0,0
+31,3,1,28,156,76.7,132,Tidak Operasi,13,Tidak Ada,Berisiko Tinggi,,,0.50,0.33,0.37,0.37,0.57,8.75,0.59,0,0.57,0,1
+35,4,0,32,152.5,28.2,42,Tidak Operasi,13.7,Tidak Ada,Tidak Berisiko Tinggi,,,0.62,0.44,0.10,0.54,0.45,3.21,0.26,0,0.64,0,0
+30,5,1,23,158,45.4,18,Tidak Operasi,12.4,Tidak Ada,Berisiko Tinggi,,,0.47,0.56,0.37,0.14,0.65,5.17,0.17,0,0.51,0,1
+24,1,0,27,160,80.3,0,Tidak Operasi,12.6,Tidak Ada,Tidak Berisiko Tinggi,,,0.28,0.10,0.10,0.32,0.72,9.16,0.10,0,0.53,0,0
+38,3,0,27,155,69.5,15,Tidak Operasi,13.3,Ada,Berisiko Tinggi,,,0.72,0.33,0.10,0.32,0.54,7.93,0.16,0,0.60,1,1
+35,1,0,27.5,148,64.7,0,Tidak Operasi,14.2,Tidak Ada,Tidak Berisiko Tinggi,,,0.62,0.10,0.10,0.34,0.28,7.38,0.10,0,0.69,0,0
+34,2,0,24.5,159,55.7,120,Tidak Operasi,10.9,Ada,Berisiko Tinggi,,,0.59,0.21,0.10,0.21,0.68,6.35,0.54,0,0.36,1,1
+38,3,0,37,155,95,36,Tidak Operasi,11.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.72,0.33,0.10,0.77,0.54,10.84,0.23,0,0.46,0,0
+29,3,1,25.5,154,54.9,72,Tidak Operasi,12.1,Ada,Berisiko Tinggi,,,0.44,0.33,0.37,0.26,0.50,6.26,0.37,0,0.48,1,1
+21,1,0,26,150,61,0,Tidak Operasi,12.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.19,0.10,0.10,0.28,0.35,6.96,0.10,0,0.52,0,0
+32,1,0,23,154,60.9,0,Tidak Operasi,11.8,Tidak Ada,Berisiko Tinggi,,,0.53,0.10,0.10,0.14,0.50,6.95,0.10,0,0.45,0,1
+26,2,0,24,152,48.5,60,Tidak Operasi,13,Tidak Ada,Tidak Berisiko Tinggi,,,0.35,0.21,0.10,0.19,0.43,5.53,0.32,0,0.57,0,0
+34,1,0,30,154,66.6,0,Tidak Operasi,14,Tidak Ada,Berisiko Tinggi,,,0.59,0.10,0.10,0.46,0.50,7.60,0.10,0,0.67,0,1
+34,2,0,29,149,58.4,132,Tidak Operasi,13.4,Tidak Ada,Tidak Berisiko Tinggi,,,0.59,0.21,0.10,0.41,0.32,6.66,0.59,0,0.61,0,0
+23,1,0,26,162,39.6,0,Tidak Operasi,13.1,Tidak Ada,Berisiko Tinggi,,,0.25,0.10,0.10,0.28,0.79,4.51,0.10,0,0.58,0,1
+34,3,0,31,157,65.6,108,Tidak Operasi,13.7,Tidak Ada,Tidak Berisiko Tinggi,,,0.59,0.33,0.10,0.50,0.61,7.48,0.50,0,0.64,0,0
+32,8,2,23,160,56.5,11,Tidak Operasi,12.9,Ada,Berisiko Tinggi,,,0.53,0.90,0.63,0.14,0.72,6.44,0.14,0,0.56,1,1
+32,1,0,30.5,154,63.3,0,Tidak Operasi,13.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.53,0.10,0.10,0.48,0.50,7.22,0.10,0,0.66,0,0
+22,1,0,24,155,60.5,0,Tidak Operasi,8.2,Ada,Berisiko Tinggi,,,0.22,0.10,0.10,0.19,0.54,6.90,0.10,0,0.10,1,1
+29,1,0,25,160,50.1,0,Tidak Operasi,13,Tidak Ada,Tidak Berisiko Tinggi,,,0.44,0.10,0.10,0.23,0.72,5.71,0.10,0,0.57,0,0
+32,5,1,23,162,49.1,36,Tidak Operasi,13.4,Tidak Ada,Berisiko Tinggi,,,0.53,0.56,0.37,0.14,0.79,5.60,0.23,0,0.61,0,1
+18,1,0,28,162,68.4,0,Tidak Operasi,13.6,Tidak Ada,Tidak Berisiko Tinggi,,,0.10,0.10,0.10,0.37,0.79,7.80,0.10,0,0.63,0,0
+22,1,0,24,148,40.5,0,Tidak Operasi,14,Tidak Ada,Berisiko Tinggi,,,0.22,0.10,0.10,0.19,0.28,4.61,0.10,0,0.67,0,1
+29,3,1,24,146,50.3,30,Tidak Operasi,12.9,Tidak Ada,Tidak Berisiko Tinggi,,,0.44,0.33,0.37,0.19,0.21,5.73,0.21,0,0.56,0,0
+38,3,0,40,155,90,108,Tidak Operasi,14.7,Ada,Berisiko Tinggi,,,0.72,0.33,0.10,0.90,0.54,10.27,0.50,0,0.73,1,1
+24,1,0,39.5,161,89.4,0,Tidak Operasi,16,Tidak Ada,Tidak Berisiko Tinggi,,,0.28,0.10,0.10,0.88,0.75,10.20,0.10,0,0.86,0,0
+31,4,0,22.5,154,47.1,36,Tidak Operasi,11.9,Ada,Berisiko Tinggi,,,0.50,0.44,0.10,0.12,0.50,5.37,0.23,0,0.46,1,1
+24,1,0,25,151,57.8,0,Tidak Operasi,11.5,Tidak Ada,Tidak Berisiko Tinggi,,,0.28,0.10,0.10,0.23,0.39,6.59,0.10,0,0.42,0,0
+26,1,0,24,162,69.7,0,Tidak Operasi,13.2,Ada,Berisiko Tinggi,,,0.35,0.10,0.10,0.19,0.79,7.95,0.10,0,0.59,1,1
+22,1,0,31,156.5,60.5,0,Tidak Operasi,13.1,Tidak Ada,Tidak Berisiko Tinggi,,,0.22,0.10,0.10,0.50,0.59,6.90,0.10,0,0.58,0,0
+35,5,1,32,153,74.1,7,Operasi,13.8,Ada,Berisiko Tinggi,,,0.62,0.56,0.37,0.54,0.46,8.45,0.13,1,0.65,1,1
+18,1,0,22,143,28.2,0,0,8.2,0,0,,,,,,,,,,,,,
+44,8,3,40,165,95,216,0,16.4,0,0,,,,,,,,,,,,,

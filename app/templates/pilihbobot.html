@@ -1,0 +1,126 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: pilihbobot.html
+menampilkan pemilihan bobot deteksi dari hasil pelatihan dan pengujian-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% block title %}{% endblock %}
+	{% include "head.html" %}
+</head>
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+
+<div id="content">
+{% block content %}
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a> <a href="/pilihbobot" class="current">Pilih Bobot Deteksi</a> </div>
+{% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    <script type='text/javascript'>
+                        var messages = {{ messages | safe }};
+                        for (var i=0; i<messages.length; i++)
+                        {
+                            alert(messages[i]);
+                        }
+                    </script>
+                    {% endif %}
+                {% endwith %}
+	<h1>Pilih Bobot Deteksi</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+	  <a href = "/tampilbobotterpilih" class="btn btn-success btn-large pull-right"><i class="fa fa-floppy-o fa-fw"></i> Lihat Bobot Terpilih </a> <br><br>
+        <div class="widget-box">
+          <div class="widget-content nopadding">
+		  <table class="table table-bordered data-table"><br><br>
+				<thead>
+					<tr>
+						<tr>
+						<th rowspan="2">No</th>
+						<th rowspan="2">K-Fold</th>
+						<th rowspan="2">Learning Rate</center></th>
+						<th rowspan="2">Learning Rate <br> Terkecil</th>
+						<th rowspan="2">Window</th>
+						<th rowspan="2">Maksimal Epoch</th>
+						<th colspan="4">Hasil Pelatihan dan Pengujian</th>
+						<th rowspan="2">Aksi</th>
+					</tr>
+					<tr>
+						<th>Akurasi </th>
+						<th>Error Rate</th>
+						<th>Sensitifitas</th>
+						<th>Spesifisitas</th>
+					</tr>
+				</thead>
+					<tbody>
+						{% for row in data %}
+						<tr>
+						<td>{{loop.index}}</td>
+						<td>{{row.1}}</td>
+						<td>{{row.2}}</td>
+						<td>{{row.3}}</td>
+						<td>{{row.4}}</td>
+						<td>{{row.5}}</td>
+						<td>{{row.8}}%</td>
+						<td>{{row.9}}%</td>
+						<td>{{row.11}}%</td>
+						<td>{{row.10}}%</td>
+
+						<td>
+							<center>
+							<a href="bobotterpilih/{{row.0}}" onclick="return confirm('\nYakin memilih bobot deteksi dari data ini?')"  id="myButton" class="btn btn-warning" title="Jadikan Bobot Deteksi?"><i class="icon-check">Jadikan Bobot Deteksi</i></a>
+						</center> 
+						</td>
+						
+						</tr>
+						{% endfor %}
+					</tbody>
+            </table>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<td>
+				
+<!-- Konten Isi -->
+{% endblock %}
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="static/js/jquery.min.js"></script> 
+<script src="static/js/jquery.ui.custom.js"></script> 
+<script src="static/js/bootstrap.min.js"></script> 
+<script src="static/js/jquery.uniform.js"></script> 
+<script src="static/js/select2.min.js"></script> 
+<script src="static/js/jquery.dataTables.min.js"></script> 
+<script src="static/js/matrix.js"></script> 
+<script src="static/js/matrix.tables.js"></script>
+ <script src="../assets/extra-libs/DataTables/datatables.min.js"></script>
+ <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.min.js"></script>
+    <!-- this page js -->
+    <script src="../assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+    <script src="../assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+    <script src="../assets/extra-libs/DataTables/datatables.min.js"></script>
+</body>
+</html>

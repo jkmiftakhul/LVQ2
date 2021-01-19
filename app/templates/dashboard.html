@@ -1,0 +1,83 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: dashboard.html
+menampilkan dashboard admin  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+{% block title %}{% endblock %}
+	{% include "head.html" %}
+</head>
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+
+
+<div id="content">
+{% block content %}
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a></div>
+	<h1>Dashboard</h1>
+	
+  </div>
+  <hr>
+  <div class="container-fluid">
+	<h2>Welcome back, {{ username }}!</h2>
+    
+    <div class="row-fluid">
+      <div class="span12">
+	  <div class="widget-box">
+          <div class="widget-title"> <span class="icon"><i class="icon-ok"></i></span>
+            <h4>Panduan Penggunaan Aplikasi</h4>
+          </div>
+          <div class="widget-content">
+            <div class="todo">
+              <ul>
+                <li class="clearfix">
+                  <div class="txt"> Data Rekam Medis Ibu Hamil yang digunakan sebagai data Pelatihan dan Pengujian dapat dilihat pada menu "Lihat Data"<span class="date badge badge-warning"></span> </div>
+                  <div class="pull-right"> <a class="tip" href="#" title="Edit Task"><i class="icon-pencil"></i></a> </div>
+                </li>
+                <li class="clearfix">
+                  <div class="txt"> Lakukan Pelatihan dan Pengujian dengan memberikan perintah "Lakukan Pengujian"(klik tombol), dari menu "Pelatihan dan Pengujian" <span class="by label"></span></div>
+                  <div class="pull-right"> <a class="tip" href="#" title="Edit Task"><i class="icon-pencil"></i></a> </div>
+                </li>
+                <li class="clearfix">
+                  <div class="txt"> Riwayat Pelatihan dan Pengujian ditampilkan pada menu "Pelatihan dan Pengujian"<span class="date badge badge-info"></span> </div>
+                  <div class="pull-right"> <a class="tip" href="#" title="Edit Task"><i class="icon-pencil"></i></a></div>
+                </li>
+                <li class="clearfix">
+                  <div class="txt"> Pilih Bobot Deteksi pada Menu "Bobot Deteksi > Pilih Bobot Deteksi" <span class="date badge badge-important"></span> </div>
+                  <div class="pull-right"> <a class="tip" href="#" title="Edit Task"><i class="icon-pencil"></i></a></div>
+                </li>
+				<li class="clearfix">
+                  <div class="txt"> Detail Bobot Deteksi Terpilih dapat dilihat pada Menu "Bobot Deteksi > Bobot Terpilih"  <span class="date badge badge-important"></span> </div>
+                  <div class="pull-right"> <a class="tip" href="#" title="Edit Task"><i class="icon-pencil"></i></a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Konten Isi -->
+{% endblock %}
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="static/js/jquery.min.js"></script> 
+<script src="static/js/jquery.ui.custom.js"></script> 
+<script src="static/js/bootstrap.min.js"></script> 
+<script src="static/js/jquery.uniform.js"></script> 
+<script src="static/js/select2.min.js"></script> 
+<script src="static/js/jquery.dataTables.min.js"></script> 
+<script src="static/js/matrix.js"></script> 
+<script src="static/js/matrix.tables.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: pelatihandanpengujian.html
+menampilkan form input pelatihan dan pengajian -->
+
+<!DOCTYPE html>
+<html>
+<head>
+{% block title %}{% endblock %}
+{% include "head.html" %}
+</head>
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+<div id="content">
+{% block content %}
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a> <a href="/index" class="current">Riwayat Hasil Pelatihan dan Pengujian</a> </div>
+    {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    <script type='text/javascript'>
+                        var messages = {{ messages | safe }};
+                        for (var i=0; i<messages.length; i++)
+                        {
+                            alert(messages[i]);
+                        }
+                    </script>
+                    {% endif %}
+                {% endwith %}
+	<h1>Pelatihan dan Pengujian</h1>
+	
+  </div>
+  <div class="container-fluid">
+
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+	  	  <h4>Masukkan Inisialisasi Pelatihan </h4>
+        <div class="widget-box">
+          <div class="widget-content nopadding">
+		  <form role="form" action = "/hasilpelatihandanpengujian" method = "post" class="form-horizontal" enctype="multipart/form-data">
+				<div class="control-group">
+				  <label class="control-label">Learning Rate :</label>
+				  <div class="controls">
+					<input class="form-control" pattern="[-+]?[0-9]*[.]?[0-9]+" placeholder="Alfa" name="alfa" type="text" title = "Gunakan '.' jika bilangan desimal"required>
+					<span style ="color : red;">*</span></div>
+					<div style="clear: both;"></div>
+				  </div>
+				<div class="control-group">
+				  <label class="control-label">Learning Rate Terkecil :</label>
+				  <div class="controls">
+					<input class="form-control" pattern="[-+]?[0-9]*[.]?[0-9]+" placeholder="Learning Rate Terkecil" name="alfa_minimal" type="text" title = "Gunakan '.' jika bilangan desimal"required>
+					<span style ="color : red;">*</span></div>
+					<div style="clear: both;"></div>
+				  </div>
+				<div class="control-group">
+				  <label class="control-label">Window :</label>
+				  <div class="controls">
+				   <input class="form-control" pattern="[-+]?[0-9]*[.]?[0-9]+" placeholder="window" name="Window"  type="text" title = "Gunakan '.' jika bilangan desimal" required>
+					<span style ="color : red;">*</span></div>
+					<div style="clear: both;"></div>
+				  </div>
+				<div class="control-group">
+				  <label class="control-label">Max Epoch :</label>
+				  <div class="controls">
+				   <input class="form-control" pattern="[-+]?[0-9]*[.]?[0-9]+" min ="10" placeholder="Max Epoch" name="Max_Epoch" type="number" required>
+					<span style ="color : red;">*</span></div>
+					<div style="clear: both;"></div>
+				  </div>
+				<div class="control-group">
+				  <label class="control-label">K-Fold:</label>
+				  <div class="controls">
+					<input class="form-control" pattern="[-+]?[0-9]*[.]?[0-9]+" min = "2" max = "10" placeholder="kfold" name="kfold" type="number" required>
+					<span style ="color : red;">*</span></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="form-actions">
+				  <input type="submit" class="btn btn-primary btn-lg " name="submit" value="Lakukan Pelatihan dan Pengujian"/>
+				</div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Konten Isi -->
+{% endblock %}
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="static/js/jquery.min.js"></script> 
+<script src="static/js/jquery.ui.custom.js"></script> 
+<script src="static/js/bootstrap.min.js"></script> 
+<script src="static/js/jquery.uniform.js"></script> 
+<script src="static/js/select2.min.js"></script> 
+<script src="static/js/jquery.dataTables.min.js"></script> 
+<script src="static/js/matrix.js"></script> 
+<script src="static/js/matrix.tables.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: jst.html
+menampilkan keterangan model LVQ2 sebagai jaringan syaraf tiruan yang digunakan untuk deteksi dini kehamilan  -->
+
+<!DOCTYPE html>
+<html>
+	{% include "head2.html" %}
+	<style type="text/css">
+				.pembungkus{
+					position: relative;
+				}
+				img {position: relative;
+
+				}
+				h1{
+					position: absolute;
+					left:550px;
+					top: 320px;
+					color: black;
+				}
+				h2{
+					position: absolute;
+					left:570px;
+					top: 350px;
+					color: red;
+				}
+				h3{
+					position: absolute;
+					color: black;
+				}
+				.row{
+					position: absolute;
+					width: 1200px;
+					left:150px;
+					top: 180px;
+					color: black;
+				}
+			</style>
+			</style>
+
+	{% include "navbar2.html" %}
+<body >
+			<div class="pembungkus">
+			<img src="{{url_for('static', filename='images2/background.png')}}" width="100%">
+				<div class="row">
+		<div class="col-xs-10 col-xs-offset-1  col-md-4 col-md-offset-4">
+			<div class="login-panel panel panel-default">
+				
+				<div class="panel-body">
+					<h3>JST LVQ2</h3><br><br><br>
+				<h4 >Learning Vector Quantization (LVQ) (Naoum & Al Sultani, 2012) adalah sebuah metode untuk pelatihan layer-layer kompetitif dalam pelatihan terawasi (dengan target output). 
+				<br>
+				LVQ memiliki beberapa algoritma perbaikan dari LVQ dasar atau LVQ1. Salah satu algoritma LVQ yang telah ditingkatkan adalah LVQ2.</h4>
+				<h4><a href="/form_deteksi" class="btn btn-success">LAKUKAN DETEKSI DINI</a></h4>
+				</div>
+			</div>
+		</div><!-- /.col-->
+	</div><!-- /.row -->
+				
+          </div>
+</body>
+<html>

@@ -1,0 +1,84 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: datagejala.html
+menentukan bobot hasil pelatihan dan pengujian untuk digunakan menjadi bobot deteksi -->
+
+<!DOCTYPE html>
+<html>
+<head>
+{% block title %}{% endblock %}
+	{% include "head.html" %}
+</head>
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+<div id="content">
+{% block content %}
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a> <a href="/lihatdata" class="current">Data Rekam Medis Ibu Hamil</a> </div>
+	<h1>Data Gejala dan hasil identifikasi Kehamilan Risiko Tinggi</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-content nopadding">
+            <table class="table table-bordered data-table"><br><br>
+				<thead>
+					<tr>
+						<th style="text-align:center;">No.</th>
+						<th style="text-align:center;">Umur (tahun)</th>
+						<th style="text-align:center;">Hamil Ke-</th>
+						<th style="text-align:center;">Riwayat Abortus</th>
+						<th style="text-align:center;">Lingkar Lengan Atas (cm)</th>
+						<th style="text-align:center;">Tinggi Badan (TB) (cm)</th>
+						<th style="text-align:center;">Berat Badan (BB)(kg)</th>
+						<th style="text-align:center;">Jarak Persalinan terakhir (bulan)</th>
+						<th style="text-align:center;">Cara Persalinan Terakhir</th>
+						<th style="text-align:center;">HB</th>
+						<th style="text-align:center;">Riwayat Penyakit</th>
+						<th style="text-align:center;">Status</th>
+					</tr>
+				</thead>
+					<tbody>
+						{% for row in data %}
+						<tr>
+						<td>{{loop.index}}</td>
+						<td>{{row.1}}</td>
+						<td>{{row.2}}</td>
+						<td>{{row.3}}</td>
+						<td>{{row.4}}</td>
+						<td>{{row.5}}</td>
+						<td>{{row.6}}</td>
+						<td>{{row.7}}</td>
+						<td>{{row.8}}</td>
+						<td>{{row.9}}</td>
+						<td>{{row.10}}</td>
+						<td>{{row.11}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Konten Isi -->
+{% endblock %}
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="static/js/jquery.min.js"></script> 
+<script src="static/js/jquery.ui.custom.js"></script> 
+<script src="static/js/bootstrap.min.js"></script> 
+<script src="static/js/jquery.uniform.js"></script> 
+<script src="static/js/select2.min.js"></script> 
+<script src="static/js/jquery.dataTables.min.js"></script> 
+<script src="static/js/matrix.js"></script> 
+<script src="static/js/matrix.tables.js"></script>
+</body>
+</html>

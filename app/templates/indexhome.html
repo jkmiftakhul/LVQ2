@@ -1,0 +1,60 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: indexhome.html
+menampilkan file index deteksi dini -->
+
+<!DOCTYPE html>
+<html>
+	{% include "head2.html" %}
+		<style type="text/css">
+				.pembungkus{
+					position: relative;
+				}
+				img {position: relative;
+
+				}
+				h1{
+					position: absolute;
+					left:550px;
+					top: 320px;
+					color: black;
+				}
+				h2{
+					position: absolute;
+					left:570px;
+					top: 350px;
+					color: red;
+				}
+				h3{
+					position: absolute;
+					left:550px;
+					top: 410px;
+					color: black;
+				}
+				h4{
+					position: absolute;
+					left:550px;
+					top: 460px;
+					color: magenta;
+				}
+				.row{
+					position: absolute;
+					width: 1200px;
+					left:150px;
+					top: 180px;
+					color: black;
+				}
+			</style>
+
+{% include "navbar2.html" %}
+<body>
+			<div class="pembungkus">
+			<img src="{{url_for('static', filename='images2/background.png')}}" width="100%">
+				<h1>DETEKSI DINI
+					<br><span>KEHAMILAN RISIKO TINGGI</span></h1>
+				<h3 class="subheading">Kesehatan ibu dan janin adalah hal terpenting.</h3>
+				<h4><a href="/form_deteksi" class="btn btn-success">LAKUKAN DETEKSI DINI</a></h4>
+          </div>
+{% include "scripts.html" %}
+</body>
+
+</html>

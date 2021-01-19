@@ -1,0 +1,64 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: tentangkami.html
+menampilkan profil admin  -->
+
+<!DOCTYPE html>
+<html>
+	{% include "head2.html" %}
+			<style type="text/css">
+				.pembungkus{
+					position: relative;
+				}
+				img {position: relative;
+
+				}
+				h1{
+					position: absolute;
+					left:550px;
+					top: 320px;
+					color: black;
+				}
+				h2{
+					position: absolute;
+					left:570px;
+					top: 350px;
+					color: red;
+				}
+				h3{
+					position: absolute;
+					color: black;
+				}
+				.row{
+					position: absolute;
+					width: 1200px;
+					left:150px;
+					top: 180px;
+					color: black;
+				}
+			</style>
+			{% include "navbar2.html" %}
+<body>
+			<div class="pembungkus">
+			<img src="{{url_for('static', filename='images2/background.png')}}" width="100%">
+				<div class="row">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+			<div class="login-panel panel panel-default">
+				
+				<div class="panel-body">
+				<h3>TUGAS AKHIR</h3><br><br><br>
+				<h4>Departemen Ilmu Komputer/Informatika
+				<br><br>Miftakhul Jannah 
+				<br> NIM : 24010314120051
+				<br>
+				<br><br>Dosen Pembimbing : <br>Priyo Sidik Sasongko, S.Si, M.Kom</h4>
+				<h4><a href="/form_deteksi" class="btn btn-success">LAKUKAN DETEKSI DINI</a></h4>
+				</div>
+			</div>
+		</div><!-- /.col-->
+	</div><!-- /.row -->
+				
+          </div>
+{% include "scripts.html" %}
+</body>
+
+</html>

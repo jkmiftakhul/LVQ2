@@ -1,0 +1,100 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: bobotterpilih.html
+menentukan bobot hasil pelatihan dan pengujian untuk digunakan menjadi bobot deteksi -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% include "head.html" %}
+</head>
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a> <a href="/pilihbobot" class="current">Bobot Deteksi Terpilih</a> </div>
+	<h1>Bobot Terpilih Hasil Pelatihan dan Pengujian</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-content nopadding">
+            <table class="table table-bordered">
+				<thead>
+					<tr>
+						<th rowspan="2"><center>K-Fold</center></th>
+						<th rowspan="2"><center>Learning <br>Rate</center></th>
+						<th rowspan="2"><center>Eps</center></th>
+						<th rowspan="2"><center>Window</center></th>
+						<th rowspan="2"><center>Maksimal Epoch</center></th>
+						<th colspan="4"><center>Hasil Pelatihan dan Pengujian</center></th>
+					</tr>
+					<tr>
+						<th><center>Akurasi</center></th>
+						<th><center>Error Rate</center></th>
+						<th><center>Sensitifitas</center></th>
+						<th><center>Spesifisitas</center></th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for keping in data: %}
+					<tr>
+						<td><center>{{ keping[0] }}</center></td>
+						<td><center>{{ keping[1] }}</center></td>
+						<td><center>{{ keping[2] }}</center></td>
+						<td><center>{{ keping[3] }}</center></td>
+						<td><center>{{ keping[4] }}</center></td> 
+						<td><center>{{ keping[5] }} %</center></td>
+						<td><center>{{ keping[6] }} %</center></td>
+						<td><center>{{ keping[7] }} %</center></td>
+						<td><center>{{ keping[8]}} %</center></td> 											
+					</tr>
+				</tbody>
+            </table>
+			</div>
+			<div class="widget-content nopadding">
+			<table class="table table-bordered data-table">
+				<tbody>
+					<tr>
+					<th style="text-align:center;">bobot Terpilih 1</th>
+						<td>{{ keping[10]}} </td>
+					</tr>														
+					<tr>
+						<th style="text-align:center;">bobot Terpilih 2</th>
+						<td>{{ keping[11] }}</td>
+					</tr>
+					<tr>
+						<th style="text-align:center;">runtime</th>
+						<td>{{ keping[9] }} detik</td>
+					</tr>
+				{% endfor %}  
+				</tbody>
+            </table> 
+			
+          </div><br>
+		  <a href = "/pilihbobot" class="btn btn-danger"><i class="fa fa-arrow-circle-left fa-fw"></i> Kembali ke Pilih Bobot Deteksi </a>
+			<a href = "/riwayathasil" class="btn btn-primary pull-right"><i class="fa fa-arrow-circle-right fa-fw"></i> Lihat Riwayat Hasil </a><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Konten Isi -->
+
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="static/js/jquery.min.js"></script> 
+<script src="static/js/jquery.ui.custom.js"></script> 
+<script src="static/js/bootstrap.min.js"></script> 
+<script src="static/js/jquery.uniform.js"></script> 
+<script src="static/js/select2.min.js"></script> 
+<script src="static/js/jquery.dataTables.min.js"></script> 
+<script src="static/js/matrix.js"></script> 
+<script src="static/js/matrix.tables.js"></script>
+</body>
+</html>

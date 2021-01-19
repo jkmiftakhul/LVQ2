@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include "head.html" %}
+</head>
+<body>
+	{% include "navbar.html" %}
+
+    {% include "sidebar.html" %}
+
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#">
+					<em class="fa fa-home"></em>
+				</a></li>
+			</ol>
+		</div><!--/.row-->
+
+		<div class="row">
+		</div><!--/.row-->
+			<div class="content-wrapper">
+			<!-- Content Header (Page header) -->
+			<section class="content-header">
+			  <h1>Impor Data Pelatihan dan Pengujian
+				<small></small>
+			  </h1>
+			  
+			</section>
+
+			<!-- Main content -->
+			<section class="content container-fluid">
+			<section class="content container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="suc"></div>
+
+		<script>
+			function getUrlVars(){
+				var vars = {};
+				var parts = window.location.href.replace(/[?&+]+([^=&]+)=([^&]*)/gi, function(m,key,value){
+					vars[key] = value;
+				});
+				return vars;
+			}
+
+			function getUrlParam(parameter, defaultvalue){
+				var urlparameter = " ";
+				if(window.location.href.indexOf(parameter) > -1){
+					urlparameter = '<div class="alert alert-success alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><h4><i class="icon fa fa-check"></i>'+getUrlVars()[parameter].replace(/[+]/g," ")+'</h4></div>';
+					}
+				return urlparameter;
+			}
+			var mytext = getUrlParam('success','Empty');
+			document.getElementById("suc").innerHTML = mytext;
+		</script>
+			<div class="panel panel-default">
+			<form action="/upload" method="POST" enctype="multipart/form-data" role="form">
+            <table style="border : 0">
+            <tr>
+                <td width="220"><label class="">CSV Dataset File</label></td>
+                <td><input type="file"  name='file' id="dataset" class="UCSV_FileInput" style="margin-bottom : 8px"></td>
+            </tr>
+			<tr>
+                <td width="220">
+                <td>Hanya dapat menerima file CSV<p>Template dataset dapat diunduh pada link berikut <a href="{{url_for('static', filename='templatedatasetmirna.csv')}}">Template Dataset MiRNA.csv</a></p></td>
+            </tr>
+            <tr>
+                <td width="220"><label class=""></label>
+                <td><input type="submit" name="submit" class="btn btn-primary btn-sm" value="Upload"></td>
+            </tr>
+            </table>
+        </form>
+		</div>
+    <section class="content container-fluid">
+		<div class="row">
+            <div class="col-lg-12">
+				<div class="panel panel-default">
+                    <div class="panel-body">
+                        {% if dn %}
+                        <p><a href="{{url_for('buatmodel')}}" class="btn btn-primary btn-sm">Buat Model Jaringan</a>
+						<div class="box-body dataTable_wrapper" style="overflow-x:auto;"> 
+							<table class="table table-bordered table-striped table-hover" id="admin">
+								<thead><tr>
+								{% for a in head %}
+									<th style="text-align:center;">{{ a }}</th>
+								{% endfor %}
+								</tr></thead>
+								<tbody>
+								{% for b in bd %}
+								<tr>
+									{% for c in range(head|length) %}
+									<td style="text-align:center;">{{ b[h[c]] }}</td>
+									{% endfor %}
+								</tr>
+								{% endfor %}
+								</tbody>
+							</table>
+						</div>
+                        {% endif %}
+                        {% if not dn %}
+                        <p>Dataset belum tersedia. Silakan unggah file dataset terlebih dahulu (ekstensi .csv).</p>
+                        {% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+			</section>
+			</section>
+			<!-- /.content -->
+		  </div>
+		  </div>
+		  </div>
+		  </div>
+        {% include "footer.html" %}
+	</div>	<!--/.main-->
+
+	{% include "scripts.html" %}
+
+</body>
+</html>

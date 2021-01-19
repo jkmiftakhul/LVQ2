@@ -1,0 +1,44 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: hasildeteksi.html
+hasil output dari deteksi dini kehamilan yang keluarannya berupa "kehamilan risiko tinggi/ kehamilan tidak berisiko tinggi" -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% include "head2.html" %}
+		<style type="text/css">
+			.pembungkus{
+				position: relative;}
+				img {position: relative;}
+			.row{
+				position: absolute;
+				width: 1200px;
+				left:150px;
+				top: 140px;
+				color: black;}
+		</style>
+</head>
+	{% include "navbar2.html" %}
+<body>
+	<div class="pembungkus">
+		<img src="{{url_for('static', filename='images2/background.png')}}" width="100%">
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+					<div class="login-panel panel panel-default">
+						<div class="panel-body">
+							<h1><center><strong>HASIL DETEKSI DINI ANDA</strong><center></h1><br>
+								<h4><center>Deteksi Dini yang telah Anda lakukan menunjukkan bahwa anda terindikasi</h4>
+								<h4><center><strong> {{ tampilkan }} </strong><center></h4>
+								<h4><center>Hasil yang ditampilkan hanya prediksi dengan perhitungan sistem, silhkan menghubungi puskesmas/ rumah sakit untuk melakukan pemeriksaan lebih lanjut<center>
+								<center><strong> TERIMA KASIH</strong> <center></h4><br>
+						</div><!-- /.panel-body-->
+					</div><!-- /.login-panel panel panel-default-->
+				</div><!-- /.col-->
+			</div><!-- /.row-->
+	</div><!-- /.pembungkus-->
+				
+          
+
+
+</body>
+</html>

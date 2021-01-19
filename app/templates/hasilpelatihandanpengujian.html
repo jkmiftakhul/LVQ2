@@ -1,0 +1,124 @@
+<!-- Miftakhul Jannah / 24010314120051
+File: hasilpelatihandanpengujian.html
+hasil pelatihan dan pengujian yang keluarannya berupa akurasi , error rate, sensitivitas dan spesifitas -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% block title %}{% endblock %}
+	{% include "head.html" %}
+</head>
+
+<body>
+{% include "header.html" %}
+
+{% include "sidebar.html" %}
+<!-- Konten Isi -->
+
+<div id="content">
+{% block content %}
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Kembali ke Beranda" class="tip-bottom"><i class="icon-home"></i> Beranda</a> <a href="/pilihbobot" class="current">Detail Hasil Pelatihan dan Pengujian</a> </div>
+	<h1>Detail Hasil Pelatihan dan Pengujian</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-content">
+            <table class="table table-bordered">
+			 <thead>
+				<tr>
+					<th style="text-align:center;">K-Fold</th>
+					<th style="text-align:center;">Learning Rate</th>
+					<th style="text-align:center;">Learning Rate Terkecil</th>
+					<th style="text-align:center;">Window</th>
+					<th style="text-align:center;">Max Epoch</th>
+				</tr></thead>
+				<tbody>
+				<tr>
+						<td><center><b>{{kfold}}</b></center></td>
+						<td><center><b>{{ alfa }} </b></center></td>
+						<td><center><b>{{ alfa_minimal }} </b></center></td>
+						<td><center><b>{{ Window }} </b></center></td>
+						<td><center><b>{{ Max_Epoch }} </b></center></td>
+					</tr>
+				</tbody>
+		  </table>
+		  
+            <table class="table table-bordered">
+			
+				<thead>
+				<tr>
+					<th style="text-align:center;">K-Fold ke-</th>
+					<th style="text-align:center;">Akurasi</th>
+					<th style="text-align:center;">Error Rate</th>
+					<th style="text-align:center;">Sensitivitas</th>
+					<th style="text-align:center;">Spesifitas</th>
+				</tr></thead>
+				<tbody>
+					 {% for keping in range(listakur|length): %}
+						<tr>
+							<td><center>{{ loop.index }}</center></td>
+							<td><center>{{ listakur[keping] }} %</center></td>
+							<td><center>{{ listerror[keping] }} %</center></td>
+							<td><center>{{ listsensi[keping] }} %</center></td>
+							<td><center>{{ listspesi[keping] }} %</center></td>
+						</tr>
+						{% endfor %} 
+						
+				</tbody>
+					<tr>
+						<td><center><b>Rata-rata</b></center></td>
+						<td><center><b>{{ akur }} %</b></center></td>
+						<td><center><b>{{ err }} %</b></center></td>
+						<td><center><b>{{ sensi }} %</b></center></td>
+						<td><center><b>{{ spesi }} %</b></center></td>
+					</tr> <br>
+            </table>
+
+			<table class="table table-bordered">
+				<tbody>
+					<tr>
+					<th style="text-align:center;">bobot akhir 1</th>
+						{% for keping in range(listbobotFRisti|length): %}
+						<td><center>{{ listbobotFRisti[keping]|round(2) }} </center></td>
+						{% endfor %}
+					</tr>														
+					<tr>
+						<th style="text-align:center;">bobot akhir 2</th>
+						{% for keping in range(listbobotFRisti|length): %}
+						<td><center>{{ listbobotFNonRisti[keping]|round(2) }}</center></td>
+						{% endfor %}
+					</tr>
+					<tr>
+						<th style="text-align:center;">runtime</th>
+						<td colspan="10">{{ runtime }} detik</td>
+					</tr>
+				</tbody>
+            </table>
+			</div><br><br>
+			<a href = "/pelatihandanpengujian" class="btn btn-danger"><i class="fa fa-arrow-circle-left fa-fw"></i> Kembali ke Pelatihan dan Pengujian </a>
+			<a href = "/riwayathasil" class="btn btn-primary pull-right"><i class="fa fa-floppy-o fa-fw"></i> Lihat Riwayat Hasil </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Konten Isi -->
+{% endblock %}
+<!--Footer-part-->
+{% include "footer.html" %}
+<!--end-Footer-part-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.uniform.js"></script> 
+<script src="js/select2.min.js"></script> 
+<script src="js/jquery.dataTables.min.js"></script> 
+<script src="js/matrix.js"></script> 
+<script src="js/matrix.tables.js"></script>
+</body>
+</html>
